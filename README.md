@@ -28,6 +28,6 @@ Contributions are welcome! If you have any suggestions, bug reports, or feature 
 
 
 ## Credits
-- Developed by [Your Name]
-- Icon made by [Icon Author] from [www.flaticon.com]
+- Developed by Dushyant Vashishtha
+
 
