@@ -1,0 +1,107 @@
+.STAYPcontainer {
+  position: fixed;
+  top: 50%;
+  right: 50px;
+  transform: translate(-50%, -50%);
+  z-index: 10000;
+  width: 350px;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.STAYPtopItem {
+  padding: 20px;
+  border-bottom: 2px solid #eee;
+}
+
+.STAYPtopItem > h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.STAYPtopItemMain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.STAYPInfo {
+  padding-left: 10px;
+}
+
+.STAYPInfo > p {
+  color: #666;
+  font-size: 14px;
+  margin: 0;
+}
+
+.STAYPInfo > h4 {
+  color: #333;
+  font-size: 18px;
+  margin: 0;
+}
+
+#STAYPbtn {
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px 20px;
+  background-color: #f15555;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#STAYPbtn:hover {
+  background-color: #e04444;
+}
+
+#STAYPbtn:active {
+  background-color: #c03333;
+}
+
+.STAYPbottomItem {
+  padding: 20px;
+}
+
+.STAYPtimeCont {
+  background-color: #1e1e1e;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.STAYPtimeCont > p {
+  color: #ccc;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+.STAYPtime {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.STAYPnumber {
+  color: #fff;
+  font-size: 40px;
+  padding: 0px 5px;
+}
+
+.STAYPnumber > p {
+  margin: 0;
+}
+
+.STAYPtime > span {
+  color: #ccc;
+  font-size: 20px;
+}

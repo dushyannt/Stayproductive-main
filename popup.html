@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stay Productive</title>
+    <style>
+       .container {
+    width: 400px;
+    max-height: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.topItem {
+    flex: 1;
+}
+
+.topItem > h1 {
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.topItemMain {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.Info {
+    display: flex;
+    align-items: center;
+}
+
+.Info > p {
+    color: #666;
+    font-size: 14px;
+    margin: 0;
+}
+
+.Info > h4 {
+    color: #333;
+    font-size: 18px;
+    margin: 0;
+    margin-left: 10px;
+}
+
+#btn {
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#btn:hover {
+    background-color: #45a049;
+}
+
+#btn:active {
+    background-color: #3e8e41;
+}
+
+.bottomItem {
+    height: 35%;
+    position: relative;
+    margin-top: 20px;
+}
+
+.ERROR {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ff5252;
+    padding: 8px 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.ERROR > p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="topItem">
+
+            <h1>Stay Productive</h1>
+
+            <div class="topItemMain">
+                <div class="Info">
+                    <p>You are currently on :</p>
+                    <h4 id="url"></h4>
+                </div>
+                <button id="btn">BLOCK THIS URL</button>
+            </div>
+        </div>
+
+        <div class="bottomItem">
+        </div>
+
+    </div>
+</body>
+<script src="./scripts/popup.js"></script>
+
+</html>
